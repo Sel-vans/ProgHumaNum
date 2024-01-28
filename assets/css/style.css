@@ -1,5 +1,45 @@
-p {
-border:solid;
-margin:40px;
-color:blue;
+html {
+	background-color: cornsilk;
+	font-size: 14px;
+	font-family: "Georgia", serif;
+	width: fill;
+}
+
+h1 {
+	font-size: xx-large;	/*mot-clé qui définit une taille très large relativement à la taille de police par défaut de l'utilisateur*/
+}
+
+h2 {
+	font-size: x-large; /*idem en légèrement moins large*/
+}
+
+table {
+	margin: auto; /*pour centrer le tableau*/
+}
+
+footer {
+	text-align: center;
+}
+
+#container {	/*boîte centrale pour encadrer le contenu en laissant des marges sur le bord ; j'ai appliqué les consignes de #page à #container*/
+	background-color: blanchedalmond;
+	color: chocolate;
+	border: 1px solid chocolate;
+	border-radius: 40px 5px; /*pour arrondir les bords*/
+	padding: 6px;
+	padding-right: 1%;
+	padding-left: 1%;
+	padding-bottom: 1%; /*pour avoir la même marge intérieure de tous les côtés du cadre*/
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.entete {
+	text-align: center;
+} 
+
+#aboutme {
+	text-align: center;
+	list-style-position: inside; /*pour centrer la liste*/
 }
