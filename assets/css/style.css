@@ -1,7 +1,7 @@
 html {
 	background-color: cornsilk;
 	font-size: 14px;
-	font-family: "Georgia", serif;
+	font-family: 'Quicksand', sans-serif;
 	width: fill;
 }
 
@@ -22,7 +22,7 @@ footer {
 }
 
 #container {	/*boîte centrale pour encadrer le contenu en laissant des marges sur le bord ; j'ai appliqué les consignes de #page à #container*/
-	background-color: blanchedalmond;
+	background: blanchedalmond;
 	color: chocolate;
 	border: 1px solid chocolate;
 	border-radius: 40px 5px; /*pour arrondir les bords*/
