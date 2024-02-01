@@ -6,11 +6,11 @@ html {
 }
 
 h1 {
-	font-size: xx-large;	/*mot-clé qui définit une taille très large relativement à la taille de police par défaut de l'utilisateur*/
+	font-size: 250%;	/*taille de police relative en pourcentages*/
 }
 
 h2 {
-	font-size: x-large; /*idem en légèrement moins large*/
+	font-size: 150%; /*idem en légèrement moins large*/
 }
 
 table {
@@ -21,7 +21,7 @@ footer {
 	text-align: center;
 }
 
-#container {	/*boîte centrale pour encadrer le contenu en laissant des marges sur le bord ; j'ai appliqué les consignes de #page à #container*/
+#page {	/*boîte centrale pour encadrer le contenu en laissant des marges sur le bord*/
 	background: blanchedalmond;
 	color: chocolate;
 	border: 1px solid chocolate;
@@ -42,4 +42,8 @@ footer {
 #aboutme {
 	text-align: center;
 	list-style-position: inside; /*pour centrer la liste*/
+}
+
+#rendus {
+	text-align: center;
 }
