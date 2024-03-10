@@ -121,4 +121,17 @@ Vers elle.`;
 /*2. Quels sont les cinq mots les plus fréquents de votre poème ?
 Calculez la richesse lexicale de votre poème (nombre de mots uniques/ nombre total de mots).*/
 
-let tokens = poem.split(/[\s+'(:\s*?)(;\s*?)(,\s*?)(\.\s*)(\s–\s)]/igm);
+// tokenisation
+let tokens = poem.split(/[\s+’(:\s*?)(;\s*?)(,\s*?)(\.\s*)(\s–\s)]/igm);
+
+// filtrer les espaces hors de la variable tokens à l'aide d'une boucle
+for(let item of tokens) { 
+	if(item == ''){
+		tokens.splice(tokens.indexOf(item),1);
+	};
+};
+// nb d'apparitions de chaque mot unique / total de mots : / array.length;
+// créer variable qui va contenir ts les mots uniques du poème
+// diviser length mots uniques par length tokens
+
+//console.log(tokens);
